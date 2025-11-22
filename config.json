@@ -1,0 +1,18 @@
+{
+  "download_settings": {
+    "delay_between_downloads": 2,
+    "rate_limit_retry_delay": 30,
+    "max_retries": 3,
+    "timeout_seconds": 30,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "face_recognition": {
+    "tolerance": 0.6,
+    "max_face_distance": 0.6
+  },
+  "directories": {
+    "reference_photos": "reference_photos",
+    "downloads": "downloaded_photos",
+    "results": "matched_photos"
+  }
+}
